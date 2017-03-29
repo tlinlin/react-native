@@ -23,6 +23,7 @@ export default class MainExample extends Component {
 	memu(pra) {
 //		alert(`${pra}添加文件`);
 		this.setState({ name: pra })
+		
 	}
 
 	render() {
