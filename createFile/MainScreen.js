@@ -11,12 +11,13 @@ export default class MainExample extends Component {
 	};
 
 	render() {
+		const { navigate } = this.props.navigation;
 		return (
 			<Container>
 				<Content>
 					<Text>第一页</Text>
 				</Content>
-				<FooterTabsExample />
+				<FooterTabsExample name={navigate}/>
 			</Container>
 		);
 	}

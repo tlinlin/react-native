@@ -19,8 +19,12 @@ import MainScreen from './createFile/MainScreen';
 import ProfileScreen from './createFile/ProfileScreen'
 
 const App = StackNavigator({
-	Main: {screen: MainScreen},
-	Profile: {screen: ProfileScreen},
+	Main: {
+		screen: MainScreen
+	},
+	Profile: {
+		screen: ProfileScreen
+	},
 });
 
 
